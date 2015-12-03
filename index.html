@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/weather.css">
+</head>
+<body>
+	<div class="wrapper shadow">
+		<div class="top">
+			<div class="btn noselect" id="btn">C</div>
+			<span  id="big" class="iconfont"></span>
+			<p id="deg" class="text deg"></p>
+			<div class="text-city">
+				<span>输入城市：</span>
+				<input type="text" id="city" value="">
+			</div>
+		</div>
+		<div class="bottom">
+			<ul>
+				<li>
+					<h2 id="forecast1"></h2>
+					<div id="forecast-img1" class="iconfont"></div>
+					<p id="forecast-deg1"></p>
+				</li>
+				<li>
+					<h2 id="forecast2"></h2>
+					<div id="forecast-img2" class="iconfont"></div>
+					<p id="forecast-deg2"></p>
+				</li>
+				<li>
+					<h2 id="forecast3"></h2>
+					<div id="forecast-img3" class="iconfont"></div>
+					<p id="forecast-deg3"></p>
+				</li>
+				<li>
+					<h2 id="forecast4"></h2>
+					<div  id="forecast-img4" class="iconfont"></div>
+					<p id="forecast-deg4"></p>
+				</li>
+				<li>
+					<h2 id="forecast5"></h2>
+					<div id="forecast-img5" class="iconfont"></div>
+					<p id="forecast-deg5"></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/weather.js"></script>	
+</body>
+</html>
